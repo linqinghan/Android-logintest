@@ -1,3 +1,14 @@
 <resources>
-    <string name="app_name">Android-logintest</string>
+    <string name="app_name">Android登录测试</string>
+    <string name="login_tv_user">用户名</string>
+    <string name="login_tv_pwd">密码</string>
+    <string name="login_btn_login">登录</string>
+    <string name="login_hint_login">登录系统</string>
+    <string name="login_btn_register">注册</string>
+    <string name="login_hint_register">注册新用户</string>
+    <string name="login_btn_forget_pwd">忘记密码</string>
+    <string name="login_hint_forget_pwd">通过这个找回密码</string>
+    <string name="title_activity_login">登录</string>
+    <string name="login_fail_info">登录失败：密码错误</string>
+
 </resources>
