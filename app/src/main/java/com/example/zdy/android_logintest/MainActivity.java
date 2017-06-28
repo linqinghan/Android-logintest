@@ -24,11 +24,13 @@ public class MainActivity extends AppCompatActivity {
 
 
         Intent i = getIntent();
-
+/*
         String str_user = i.getStringExtra("user");
         String str_pwd = i.getStringExtra("pwd");
         String str = str_user + " : " + str_pwd;
-        m_tv.setText(String.valueOf(str));
+        m_tv.setText(String.valueOf(str));*/
+        String session = i.getStringExtra("Session");
+        m_tv.setText(String.valueOf(session));
 
     }
 
